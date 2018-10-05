@@ -36,7 +36,8 @@ import java.util.Map;
 
 /**
  * The Abstract Document pattern enables handling additional, non-static
- * properties. This pattern uses concept of traits to enable type safety and
+
+* properties. This pattern uses concept of traits to enable type safety and
  * separate properties of different classes into set of interfaces.
  * <p>
  * <p>
@@ -87,5 +88,12 @@ public class App {
   public static void main(String[] args) {
     new App();
   }
+  
+  public void hello(){
+    System.out.println("Hello World!");
+  }
 
 }
+
+
+
